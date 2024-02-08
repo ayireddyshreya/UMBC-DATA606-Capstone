@@ -18,7 +18,7 @@ The "Predicting Health Insurance" aims to analyze various factors influencing me
 
 ### What is it about?
 
-The dataset explores the relationship between individual characteristics (such as age, gender, BMI, smoking status) and external factors (region, income, education, occupation) with health insurance premiums. By studying this dataset, we aim to uncover patterns, correlations, and dependencies that can inform the development of machine learning models for predicting insurance charges.
+The dataset explores the relationship between individual characteristics (such as age, gender, BMI, smoking status) and external factors (region, occupation) with health insurance premiums. By studying this dataset, we aim to uncover patterns, correlations, and dependencies that can inform the development of machine learning models for predicting insurance charges.
 
 ### Why does it matter?
 
