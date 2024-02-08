@@ -1,25 +1,20 @@
-# Insurance Dataset for Predicting Health Insurance
+# Predicting Health Insurance using ML techniques
+
 
 ## 1. Title and Author
 
-### Project Title
-**Insurance Dataset for Predicting Health Insurance**
-
-### Prepared for UMBC Data Science Master Degree Capstone by
-**Dr. Chaojie (Jay) Wang**
-
-### Author Name
-**Ayireddy Shreya**
-
-### Author's GitHub Profile
+- **Project Title:** Predicting health insurance using ML techniques
+- **Prepared for UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang**
+- **Author Name:** Shreya Ayireddy
+- **Author's GitHub Profile:**
 https://github.com/ayireddyshreya
-
-### Author's LinkedIn Profile
+- **Author's LinkedIn Profile:**
 www.linkedin.com/in/shreya-ayireddy
+
 
 ## Background
 
-The "Insurance Dataset for Predicting Health Insurance" aims to analyze various factors influencing medical costs and health insurance premium. Understanding these factors is crucial for developing accurate predictive models and gaining insights into the relationships among different variables.
+The "Predicting Health Insurance" aims to analyze various factors influencing medical costs and health insurance premium. Understanding these factors is crucial for developing accurate predictive models and gaining insights into the relationships among different variables.
 
 ### What is it about?
 
@@ -57,8 +52,6 @@ The data is not time-bound as it was synthetically generated for diverse represe
 
 Each row represents an insured individual and includes information on their age, gender, BMI, number of children, smoking status, region, income, education, occupation, and type of insurance plan.
 
-## Data Dictionary
-
 ### Data Dictionary
 
 | Column Name           | Data Type | Definition                                      | Potential Values                                      |
@@ -77,9 +70,9 @@ Each row represents an insured individual and includes information on their age,
 | Charges               | Float     | The health insurance charges for the individual.| Float values                                           |
 
 
-### Target/Label and Features for ML Models
 
-- **Target/Label:** 
+### Target/Label
 In the provided information, the target/label variable for the machine learning model is the 'Charges' column. This variable represents the health insurance charges for the individual and would be the predicted value in the machine learning model.
-- **Features/Predictors:** 
-'gender', 'smoker', 'region', 'medical_history', 'family_medical_history', 'exercise_frequency', 'occupation', and 'coverage_level'  can be used as variables for predicting machine learning models. These variables represent categorical features, and depending on the nature of your predictive task, they can be valuable predictors for your model.
+
+### Features/Predictors
+'Gender', 'smoker', 'region', 'medical_history', 'family_medical_history', 'exercise_frequency', 'occupation', and 'coverage_level'  can be used as variables for predicting machine learning models. These variables represent categorical features, and depending on the nature of your predictive task, they can be valuable predictors for your model.
