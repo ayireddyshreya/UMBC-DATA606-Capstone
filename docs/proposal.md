@@ -42,7 +42,7 @@ The dataset size is substantial, comprising a million records. The file size is 
 
 ### Data Shape
 
-The dataset consists of 10 variables/columns and 1 million rows.
+The dataset consists of 12 variables/columns and 1 million rows.
 
 ### Time Period
 
