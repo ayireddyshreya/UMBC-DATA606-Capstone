@@ -5,7 +5,7 @@
 **Mail ID:** sayired1@umbc.edu  
 **Contact:** +1(667)-335-4370
 
-![HeadShot](https://github.com/ayireddyshreya/UMBC-DATA606-Capstone/blob/main/HeadShot.jpg?raw=true)
+![HeadShot](https://github.com/ayireddyshreya/UMBC-DATA606-Capstone/blob/main/docs/HeadShot.jpg)
 
 
 ## EDUCATION
