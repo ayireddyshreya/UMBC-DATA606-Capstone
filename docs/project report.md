@@ -12,7 +12,7 @@ https://github.com/ayireddyshreya
 www.linkedin.com/in/shreya-ayireddy
 
 
-## Background
+## 2. Background
 
 The "Predicting Health Insurance" aims to analyze various factors influencing medical costs and health insurance premium. Understanding these factors is crucial for developing accurate predictive models and gaining insights into the relationships among different variables.
 
@@ -30,7 +30,7 @@ Understanding the factors influencing health insurance premiums is essential for
 2. How do external factors (region, income, education, occupation) contribute to variations in insurance charges?
 3. Can a machine learning model accurately predict health insurance premiums based on the provided variables?
 
-## Data
+## 3. Data
 
 ### Data Sources
 
@@ -76,3 +76,26 @@ In the provided information, the target/label variable for the machine learning 
 
 ### Features/Predictors
 'Gender', 'smoker', 'region', 'medical_history', 'family_medical_history', 'exercise_frequency', 'occupation', and 'coverage_level'  can be used as variables for predicting machine learning models. These variables represent categorical features, and depending on the nature of your predictive task, they can be valuable predictors for your model.
+
+## 4. Exploratory Data Analysis
+
+
+### Summary Statistics:
+
+**Key Variables:**
+
+- **Charges Distribution:**
+  - Minimum Charges: 3445.01
+  - Maximum Charges: 32561.56
+
+- **Age Distribution:**
+  - Minimum Age: 18
+  - Maximum Age: 65
+
+- **BMI Distribution**
+  - Minimum BMI: 18
+  - Maximum BMI: 50
+
+### Distribution of Health Insurance Charges
+- **Minimum Charges:** 3445.0116431134834
+- **Maximum Charges:** 32561.56037356053
