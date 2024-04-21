@@ -99,10 +99,6 @@ There are no missing values and duplicate rows in the dataset.
   - Minimum BMI: 18
   - Maximum BMI: 50
 
-### Distribution of Health Insurance Charges
-- **Minimum Charges:** 3445.0116431134834
-- **Maximum Charges:** 32561.56037356053
-
 ### Visualizations
 
 **Distribution of the target variable 'Charges'**
