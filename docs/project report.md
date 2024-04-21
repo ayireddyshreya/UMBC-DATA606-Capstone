@@ -19,15 +19,15 @@ https://github.com/ayireddyshreya/UMBC-DATA606-Capstone/blob/main/docs/Presentat
 
 The "Predicting Health Insurance" aims to analyze various factors influencing medical costs and health insurance premium. Understanding these factors is crucial for developing accurate predictive models and gaining insights into the relationships among different variables.
 
-### What is it about?
+#### What is it about?
 
 The dataset explores the relationship between individual characteristics (such as age, gender, BMI, smoking status) and external factors (region, occupation) with health insurance premiums. By studying this dataset, I aim to uncover patterns, correlations, and dependencies that can inform the development of machine learning models for predicting insurance charges.
 
-### Why does it matter?
+#### Why does it matter?
 
 Understanding the factors influencing health insurance premiums is essential for both insurance providers and individuals seeking coverage. Accurate predictions can lead to better-informed decision-making, personalized pricing, and improved risk assessment in the insurance industry.
 
-### What are your research questions?
+#### What are your research questions?
 
 1. What is the impact of individual characteristics (age, gender, BMI, smoking status) on health insurance premiums?
 2. How do external factors (region, income, education, occupation) contribute to variations in insurance charges?
@@ -35,27 +35,27 @@ Understanding the factors influencing health insurance premiums is essential for
 
 ## 3. Data
 
-### Data Sources
+#### Data Sources
 
 [Insurance dataset](https://www.kaggle.com/datasets/sridharstreaks/insurance-data-for-machine-learning/data)
 
-### Data Size
+#### Data Size
 
 The dataset size is substantial, comprising a million records. The file size is 101.94 MB.
 
-### Data Shape
+#### Data Shape
 
 The dataset consists of 12 variables/columns and 1 million rows.
 
-### Time Period
+#### Time Period
 
 The data is not time-bound as it was synthetically generated for diverse representation.
 
-### Each Row Represents
+#### Each Row Represents
 
 Each row represents an insured individual and includes information on their age, gender, BMI, number of children, smoking status, region, income, education, occupation, and type of insurance plan.
 
-### Data Dictionary
+#### Data Dictionary
 
 | Column Name           | Data Type | Definition                                      | Potential Values                                      |
 |------------------------|-----------|-------------------------------------------------|--------------------------------------------------------|
@@ -74,10 +74,10 @@ Each row represents an insured individual and includes information on their age,
 
 
 
-### Target/Label
+#### Target/Label
 In the provided information, the target/label variable for the machine learning model is the 'Charges' column. This variable represents the health insurance charges for the individual and would be the predicted value in the machine learning model.
 
-### Features/Predictors
+#### Features/Predictors
 'Gender', 'smoker', 'region', 'medical_history', 'family_medical_history', 'exercise_frequency', 'occupation', and 'coverage_level'  can be used as variables for predicting machine learning models. These variables represent categorical features, and depending on the nature of your predictive task, they can be valuable predictors for your model.
 
 ## 4. Exploratory Data Analysis
@@ -100,7 +100,6 @@ There are no missing values and duplicate rows in the dataset.
   - Maximum BMI: 50
 
 ### Visualizations
-
 **Distribution of the target variable 'Charges'**
 ![1](https://github.com/ayireddyshreya/UMBC-DATA606-Capstone/blob/main/docs/1.png)
 The bars on the graph depict the number of people who have incurred a certain range of charges. For instance, there appear to be more people with charges between 5000 and 10,000 than those with charges between 25,000 and 30,000.
@@ -187,7 +186,7 @@ Calculation of evaluation metrics:
 - Mean Squared Error (MSE)
 - R-squared
 
-**Results**
+### Results
 - ***Linear regression***
   - Mean Absolute Error: 250.34
   - Mean Squared Error: 83483.88 
@@ -205,10 +204,10 @@ Calculation of evaluation metrics:
 ![11](https://github.com/ayireddyshreya/UMBC-DATA606-Capstone/blob/main/docs/11.png)
 
 
-Linear Regression model emerges as the preferred choice for predicting healthcare charges due to its outstanding performance metrics
-Linear Regression exhibits the lowest MSE and MAE, indicating superior predictive accuracy and precision.
-With the highest R-squared value among the models, Linear Regression explains the most variance in the data.
-The exceptional performance of Linear Regression makes it the recommended choice for predicting healthcare charges.
+- Linear Regression model emerges as the preferred choice for predicting healthcare charges due to its outstanding performance metrics
+- Linear Regression exhibits the lowest MSE and MAE, indicating superior predictive accuracy and precision.
+- With the highest R-squared value among the models, Linear Regression explains the most variance in the data.
+- The exceptional performance of Linear Regression makes it the recommended choice for predicting healthcare charges.
 
 ## Application of the Trained Models
 Flask web application utilizes a pre-trained machine learning model to predict insurance charges based on user input. 
@@ -220,13 +219,14 @@ The model predicts insurance charges based on the provided information, returnin
 ## Conclusion
 My analysis involved robust data preprocessing and model building, utilizing Linear Regression, Decision Tree Regressor, and Random Forest Regressor.
 The developed models demonstrated strong predictive performance in estimating healthcare charges, with the Linear Regression model exhibiting exceptional accuracy.
-- Implications: The accurate prediction of healthcare charges can facilitate informed decision-making and resource allocation in healthcare management, aiding in budgeting and financial planning.
-The model's accuracy enables informed decision-making and resource allocation in healthcare management.
+- ***Implications:***
+  - The accurate prediction of healthcare charges can facilitate informed decision-making and resource allocation in healthcare management, aiding in budgeting and financial planning.
+  - The model's accuracy enables informed decision-making and resource allocation in healthcare management.
 Applications extend to healthcare cost prediction, budgeting, and identifying cost drivers.
-- Limitations:
+- ***Limitations:***
   - Model Assumptions: Linear Regression models rely on assumptions such as linearity, independence of errors, which may not always hold true in real-world healthcare data. Violations of these assumptions can lead to biased estimates and inaccurate predictions.
   - Ethical and Legal Considerations: The use of predictive models in healthcare raises ethical and legal concerns related to patient privacy, fairness, and potential biases in decision-making. Ensuring transparency, accountability, and adherence to regulatory requirements is essential to mitigate these risks.
-- Future Scope:
+- ***Future Scope:***
    - Integration of Advanced Machine Learning Techniques: Explore the integration of advanced machine learning techniques such as deep learning and neural networks to capture intricate patterns and dependencies in healthcare data.
    - Integration with Value-Based Care Initiatives: Integrate predictive analytics models with value-based care initiatives to promote cost-effective and high-quality healthcare delivery. 
 
