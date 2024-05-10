@@ -209,14 +209,14 @@ Calculation of evaluation metrics:
 - With the highest R-squared value among the models, Linear Regression explains the most variance in the data.
 - The exceptional performance of Linear Regression makes it the recommended choice for predicting healthcare charges.
 
-## Application of the Trained Models
+## 6. Application of the Trained Models
 Flask web application utilizes a pre-trained machine learning model to predict insurance charges based on user input. 
 Users input their demographic and health-related information, including age, gender, BMI, smoking status, and region, through a simple web form. This data is then transmitted to a pre-trained machine learning model, which utilizes historical insurance data to make predictions. 
 The model predicts insurance charges based on the provided information, returning the estimated costs to the user interface for display. By integrating machine learning with web technology, this application exemplifies a practical use case, enhancing accessibility to insurance pricing information for a wider audience.
 
 ![12](https://github.com/ayireddyshreya/UMBC-DATA606-Capstone/blob/main/docs/12.png)
 
-## Conclusion
+## 7. Conclusion
 My analysis involved robust data preprocessing and model building, utilizing Linear Regression, Decision Tree Regressor, and Random Forest Regressor.
 The developed models demonstrated strong predictive performance in estimating healthcare charges, with the Linear Regression model exhibiting exceptional accuracy.
 - ***Implications:***
@@ -230,7 +230,7 @@ Applications extend to healthcare cost prediction, budgeting, and identifying co
    - Integration of Advanced Machine Learning Techniques: Explore the integration of advanced machine learning techniques such as deep learning and neural networks to capture intricate patterns and dependencies in healthcare data.
    - Integration with Value-Based Care Initiatives: Integrate predictive analytics models with value-based care initiatives to promote cost-effective and high-quality healthcare delivery. 
 
-## References
+## 8. References
 - Badawy, M., Ramadan, N. & Hefny, H.A. Healthcare predictive analytics using machine learning and deep learning techniques: a survey. Journal of Electrical Systems and Inf Technol 10, 40 (2023). https://doi.org/10.1186/s43067-023-00108-y
 
 - Krishnamoorthi R, Joshi S, Almarzouki H Z, Shukla P K, Rizwan A, Kalpana C, & Tiwari B (2022) A novel diabetes healthcare disease prediction framework using machine learning techniques. J Healthcare Eng. https://doi.org/10.1155/2022/1684017
