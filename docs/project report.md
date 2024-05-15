@@ -13,6 +13,7 @@ www.linkedin.com/in/shreya-ayireddy
 - **Presentation file:**
 https://github.com/ayireddyshreya/UMBC-DATA606-Capstone/blob/main/docs/Presentation.pptx
 - **Youtube:**
+https://www.youtube.com/watch?v=O7dXp14bTas&t=41s
 
 
 ## 2. Background
